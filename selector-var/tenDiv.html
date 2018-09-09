@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div[title]
+        div[title = "demo"]
+        div[title ~= "demo"]
+        div[title^="zh"] div[title^="zh-"]
+
+
+
+    </style>
+</head>
+<body>
+    <div title="demo"></div>
+    <div></div>
+    <div title="demo2"></div>
+    <div title="demo"></div>
+    <div title="demo1></div>
+    <div></div>
+    <div title="zh-123"></div>
+    <div title="zh-demo"></div>
+    <div title=""></div>
+    <div title="zhdemo"></div>
+</body>
+</html>
